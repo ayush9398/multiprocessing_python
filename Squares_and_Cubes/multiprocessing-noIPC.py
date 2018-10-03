@@ -7,6 +7,7 @@ def calc_square(numbers):
     for n in numbers:
         print('square ' + str(n*n))
         square_result.append(n*n)
+    print('within a process: result ' + str(square_result))
 
 if __name__ == "__main__":
     arr = [2,3,8,9]
